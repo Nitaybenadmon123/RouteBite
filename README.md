@@ -91,3 +91,75 @@ Users can:
 
 ## 🧱 Project Architecture
 
+RouteBite/
+├── backend/
+│ ├── manage.py
+│ ├── requirements.txt
+│ └── Django REST API
+├── frontend-clean/
+│ ├── React application
+│ └── Google Maps integration
+├── Jenkinsfile
+└── README.md
+
+
+
+---
+
+## ⚙️ Installation & Running Locally
+
+### Clone the repository
+```bash
+git clone https://github.com/Nitaybenadmon123/RouteBite.git
+cd RouteBite
+
+
+Backend setup
+
+pip install -r requirements.txt
+pip install djangorestframework
+pip install psycopg2-binary
+python manage.py migrate
+python manage.py runserver
+
+Frontend setup
+
+cd frontend-clean
+npm install
+npm start
+
+🚀 Learning Outcomes
+
+This project strengthened my skills in:
+
+Full-stack web development
+
+REST API design
+
+Third-party API integration
+
+Map-based UI development
+
+System architecture and separation of concerns
+
+Working with real-world, imperfect data
+
+CI/CD fundamentals using Jenkins
+
+
+🔮 Future Improvements
+
+📱 Convert the system into a mobile application (Android / iOS)
+
+🔐 Add user authentication and personalization
+
+📊 Improve crowd prediction accuracy
+
+☁️ Deploy to cloud infrastructure
+
+🎨 Enhance UI/UX for mobile-first usage
+
+📌 Project Status
+
+Currently implemented as a web application.
+Planned upgrade: mobile application for smartphones.
